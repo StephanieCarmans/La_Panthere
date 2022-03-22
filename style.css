@@ -80,7 +80,8 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/*retrait des ::before car nuit à la lectrure d'écran*/
+/*.bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -92,7 +93,7 @@ a:hover {
 
 .texture-paper::before {
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
